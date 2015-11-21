@@ -5,4 +5,6 @@ package visitors;
  */
 public interface IVisitedExpr {
 
+    Object accept(IBoolExprVisitor visitor);
+
 }
